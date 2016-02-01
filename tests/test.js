@@ -63,6 +63,13 @@ describe('cal', () => {
       expect(output).to.equal(goal);
     });
 
+    it('should handle just a year', () => {
+      const goal = execSync('cal 2014').toString();
+      const output = execSync('./cal.js 2014').toString();
+
+      expect(output).to.equal(goal);
+    });
+
 
   });
 

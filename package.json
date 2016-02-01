@@ -20,10 +20,13 @@
   "homepage": "https://github.com/threepears/node-cal#readme",
   "devDependencies": {
     "chai": "^3.4.1",
+    "coveralls": "^2.11.6",
     "istanbul": "^0.4.2",
     "mocha": "^2.3.4"
   },
   "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
     "lodash": "^4.0.1"
   }
 }
