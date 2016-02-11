@@ -12,6 +12,20 @@
     "type": "git",
     "url": "git+https://github.com/threepears/node-cal.git"
   },
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "/Users/CloseUpStudios/workspace/cohort11.json"
+    ],
+    "rules": {
+      "no-console": 0
+    }
+  },
   "author": "",
   "license": "MIT",
   "bugs": {
